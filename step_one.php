@@ -28,11 +28,11 @@
 <fieldset>
 	<legend>Choose your creature type:</legend>
 	<p>
-		<input type="radio" name="creature_type" name="alien" value="alien" id="alien">
+		<input type="radio" name="creature_type" name="alien" value="alien" id="alien"> <!-- Validation error on name attribute -->
 		<label for="alien">Alien</label>
 	</p>
 	<p>
-		<input type="radio" name="creature_type" name="robot" value="robot" id="robot">
+		<input type="radio" name="creature_type" name="robot" value="robot" id="robot"> <!-- Validation error on name attribute -->
 		<label for="robot">Robot</label>
 	</p>
 </fieldset>
